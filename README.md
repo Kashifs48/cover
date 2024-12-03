@@ -1,5 +1,5 @@
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:3.12.2024
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,10 +31,92 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+<html>
+    <head>
+        <style>
+            body {
+                margin: 10;
+                padding: 0;
+                background-color: #b6b6b6; 
+            }
+            .container {
+                position: relative; 
+                width: 360px; 
+                height: 500px; 
+                margin: 5px auto; 
+                background-image: url(kkk.jpg);
+                background-size: contain; 
+                border: 2px solid rgb(255, 255, 255);
+            }
+            .title {
+                position: absolute;
+                letter-spacing: 5;
+                top: 10px;
+                left: 45;
+                color: antiquewhite;
+                text-align: left;
+                font-family:sans-serif;
+                font-weight: 150;
+                margin: 0;
+            }
+            .sub{
+                position: absolute;
+                letter-spacing: 5;
+                top: 54px;
+                left: 45;
+                color:white;
+                text-align: left;
+                font-family:sans-serif;
+                font-weight: 150;
+                margin: 0;
+            }
+            .edition{
+                position: absolute;
+                letter-spacing: 3;
+                top: 15px;
+                right: 4;
+                color:aliceblue;
+                text-align: right;
+                font-size: 8;
+                font-style:normal;
+                font-weight: 15;
+                margin: 0;
 
+            }
+            .imag {
+                position: absolute; 
+                bottom: 10px; 
+                right: 15px; 
+                width: 80px; 
+                border-radius: 5%;
+                border: 2px solid rgb(223, 229, 230); 
+            }
+            .author {
+                position: absolute;
+                bottom: 8px;
+                left: 22px; /* Adjust to avoid overlapping with the image */
+                font-size: 13px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(228, 241, 241);
+                letter-spacing: 3;
+                margin: 0;
+            }
+        </style>
+        <title>My Book</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">SK</h1>
+            <h2 class="sub"></h2><h2><b><br>APPLICATION OF WEB AND CSS</br></b></h2>
+            <img src="kkk1.jpeg" class="imag">
+            <h4 class="author">SYED KASHIF S</h4>
+            <h6 class="edition">48 EDITION</h6>
+        </div>
+    </body>
+</html>
 
 ## OUTPUT:
-
+![alt text](<Screenshot (11).png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
