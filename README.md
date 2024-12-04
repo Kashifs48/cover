@@ -31,6 +31,7 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
 <html>
     <head>
         <style>
@@ -83,6 +84,12 @@ Publish the website in the LocalHost.
                 margin: 0;
 
             }
+            .line {
+            width: 80%;
+            height: 2px;
+            background: #e0f7fa;
+            margin: 20px 0;
+        }
             .imag {
                 position: absolute; 
                 bottom: 10px; 
@@ -112,9 +119,10 @@ Publish the website in the LocalHost.
             <h4 class="author">SYED KASHIF S</h4>
             <h6 class="edition">48 EDITION</h6>
         </div>
+        <div class="line"></div>
     </body>
 </html>
-
+```
 ## OUTPUT:
 ![alt text](<Screenshot (11).png>)
 
